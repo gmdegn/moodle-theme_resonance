@@ -1,0 +1,156 @@
+/* Custom CSS
+-------------------------*/
+body{
+	background-color: #dce4f5;
+	color: #011452;
+}
+
+header.clearfix {
+	background-color: rgba(26, 76, 128, 0.25);
+	border-bottom: double;
+	border-bottom-color: #348c99;
+}
+
+header.clearfix  a:hover{
+	background-color: rgba(26, 76, 128, 0.10);
+	background:url([[pix:theme|reshead]]) no-repeat;
+}
+
+.block {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background-color: #eaf2ff;
+	float: top;
+	border-style: double!important;
+	border-width: 3px!important;
+	border-color: #348c99!important;
+	border-right-color: black!important;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+[class*="span"]{
+  float: top;
+}
+
+.row-fluid [class*="span"] {
+	float: top;
+}
+
+.navbar {
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.navbar:hover {
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.breadcrumb {
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	background-color: #dce4f5;
+	border-style: single;
+	border-width: 2px;
+	border-bottom-width: 3px;
+	border-color: #348c99;
+	padding-left: 5px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	
+}
+
+.coursebox {
+	min-height: 40%;
+	padding-top: 0px;
+	background-color: #eaf2ff;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	transition: all 2s ease;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+
+.courses .coursebox:hover, .course_category_tree .courses > .paging.paging-morelink:hover {
+	background-color: #f5fbff;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	transition: all 2s ease;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+a {
+	color: #346775;
+	text-decoration: none;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+a.logo {
+    /*background: url([[setting:logo]]) no-repeat 0 0;*/
+	background:url([[pix:theme|logo2]]) no-repeat 0 0;
+    display: block;
+    float: left;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+a.logo:hover {
+	height: 200px;
+	-webkit-transition: all 3s ease;
+	-moz-transition: all 3s ease;
+	-ms-transition: all 3s ease;
+	-o-transition: all 3s ease;
+	transition: all 3s ease;
+}
+
+.block.header {
+	background-color: rgba(26, 76, 128, 0.25);
+}
+
+#page-footer, h2{
+	background-color: rgba(26, 76, 128, 0.25);
+	padding-bottom: 0px
+}
+
+a:visited {
+	color: #64c8e6;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #9DE6FF;
+	text-decoration: none;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	transition: all 2s ease;
+}
+
+.dir-rtl a.logo {
+    background: url([[setting:logo]]) no-repeat 100% 0;
+    display: block;
+    float: right;
+}
+
+/* Custom CSS Settings
+-------------------------*/
+[[setting:customcss]]
